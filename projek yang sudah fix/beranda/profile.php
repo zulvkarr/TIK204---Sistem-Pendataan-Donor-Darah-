@@ -26,7 +26,7 @@
                 <ul>
                     <li><a href="stok darah.html">STOK DARAH</a></li>
                     <li><a href="pendonor.html">PENDONOR</a></li>
-                    <li><a href="../profile.php">PROFILE</a></li>
+                    <li><a href="profile.php">PROFILE</a></li>
                     <li><a href="beranda.html">BACK</a></li>
                     <li><a href="../logout.php">LOG OUT</a></li>
                 </ul>
