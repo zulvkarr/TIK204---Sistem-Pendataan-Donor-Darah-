@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  text-decoration: none;  
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #e41414;
+}
+
+.menu {
+  float: right;
+}
+
+.wrapper {
+  
+  display: block;
+}
+
+.wrapper .left{
+  width: 95%;
+  background: linear-gradient(to right,#121112,#ea2c2c);
+  padding: 20px 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper .left img{
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+  margin-bottom: 10px;
+}
+
+.wrapper .left p{
+  font-size: 20px;
+}
+
+.wrapper .right{
+  width: 100%;
+  background: #fff;
+  padding: 30px 25px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+  margin-bottom: 20px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #ea2c2c;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .projects_data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .projects_data .data{
+  width: 95%;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .projects_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .projects_data .data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+
