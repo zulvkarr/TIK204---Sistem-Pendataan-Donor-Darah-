@@ -98,7 +98,7 @@
 										WHERE username = '".$d->username."' ");
 							if($u_pass){
 								echo '<script>alert("Ubah data berhasil")</script>';
-								echo '<script>window.location="profile.php"</script>';
+								echo '<script>window.location="../logout.php"</script>';
 							}else{
 								echo 'gagal '.mysqli_error($conn);
 							}
