@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="beranda.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	
 </head>
 <body>
     <nav>
@@ -24,10 +25,10 @@
             <div class="logo"><a href=''>BLOOD CARE</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="stok darah.html">STOK DARAH</a></li>
-                    <li><a href="pendonor.html">PENDONOR</a></li>
+                    <li><a href="stok darah.php">STOK DARAH</a></li>
+                    <li><a href="pendonor.php">PENDONOR</a></li>
                     <li><a href="profile.php">PROFILE</a></li>
-                    <li><a href="beranda.html">BACK</a></li>
+                    <li><a href="beranda.php">BACK</a></li>
                     <li><a href="../logout.php">LOG OUT</a></li>
                 </ul>
             </div>
@@ -43,7 +44,7 @@
 			<div class="box">
 				<form action="" method="POST">
 					<input type="text" name="nama" placeholder="Nama Lengkap" class="input-control" value="<?php echo $d->Nama; ?>" required>
-					<input type="text" name="user" placeholder="Username" class="input-control" value="<?php echo $d->username; ?>" required>
+					<input type="text" name="user" placeholder="Username" class="input-control" value="<?php echo $d->username; ?>" required readonly >
 					<input type="text" name="hp" placeholder="No Hp" class="input-control" value="<?php echo $d->NomerHp ?>" required>
 					<input type="email" name="email" placeholder="Email" class="input-control" value="<?php echo $d->email ?>" required>
 					<input type="text" name="alamat" placeholder="Alamat" class="input-control" value="<?php echo $d->Alamat ?>" required>
@@ -51,7 +52,6 @@
 				</form>
 				<?php 
 					if(isset($_POST['submit'])){
-
 						$Nama 	= ucwords($_POST['nama']);
 						$username 	= $_POST['user'];
 						$NomerHp 	= $_POST['hp'];
